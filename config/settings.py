@@ -121,7 +121,7 @@ TEMPLATES = [
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": "/home/bekzod/Desktop/cointestback/myproject/db.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
 
